@@ -8,9 +8,9 @@ const math = require('remark-math');
 async function createConfig() {
   const katex = (await import('rehype-katex')).default;
   return {
-    title: 'Learn Prompting',
-    tagline: 'A Free, Open Source Course on Communicating with Artificial Intelligence',
-    url: 'https://learnprompting.org',
+    title: '智慧启迪',
+    tagline: '关于与人工智能的免费开源课程',
+    url: 'https://zhihuiqidi.com',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -26,7 +26,7 @@ async function createConfig() {
     // metadata like html lang. For example, if your site is Chinese, you may want
     // to replace "en" with "zh-Hans".
     i18n: {
-      defaultLocale: 'en',
+      defaultLocale: 'zh-Hans',
       locales: ['en', 'es', 'fr', 'ja', 'pt', 'zh-Hans', 'ko', 'si', 'ru'],
     },
   
@@ -84,7 +84,7 @@ async function createConfig() {
     themeConfig:
       ({
         navbar: {
-          title: 'Learn Prompting',
+          title: '智慧启迪',
           logo: {
             alt: 'My Site Logo',
             src: 'img/simple_ai.png',
