@@ -4,19 +4,19 @@ import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: "Easy to Use",
+    title: "简单易用",
     Svg: require("@site/static/img/astronaut.png").default,
-    description: <>Built for beginners</>,
+    description: <>专为初学者打造</>,
   },
   {
-    title: "Focus on What Matters",
+    title: "专注于重要的事情",
     Svg: require("@site/static/img/computer.png").default,
-    description: <>Spend less time for better LLM results</>,
+    description: <>花更少的时间获得更好的LLM结果</>,
   },
   {
-    title: "Shoot for the Moon",
+    title: "奔向太空",
     Svg: require("@site/static/img/rocket.png").default,
-    description: <>Learn advanced prompt engineering</>,
+    description: <>学习高级提示工程</>,
   },
 ];
 
